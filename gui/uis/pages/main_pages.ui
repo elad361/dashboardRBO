@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainPages</class>
+ <widget class="QWidget" name="MainPages">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>5</number>
+   </property>
+   <property name="rightMargin">
+    <number>5</number>
+   </property>
+   <property name="bottomMargin">
+    <number>5</number>
+   </property>
+   <item>
+    <widget class="QStackedWidget" name="pages">
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="page_1">
+      <property name="styleSheet">
+       <string notr="true">font-size: 14pt</string>
+      </property>
+      <layout class="QVBoxLayout" name="page_1_layout">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <property name="leftMargin">
+        <number>5</number>
+       </property>
+       <property name="topMargin">
+        <number>5</number>
+       </property>
+       <property name="rightMargin">
+        <number>5</number>
+       </property>
+       <property name="bottomMargin">
+        <number>5</number>
+       </property>
+       <item>
+        <widget class="QPlainTextEdit" name="text_edit"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QVBoxLayout" name="page_2_layout">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <property name="leftMargin">
+        <number>5</number>
+       </property>
+       <property name="topMargin">
+        <number>5</number>
+       </property>
+       <property name="rightMargin">
+        <number>5</number>
+       </property>
+       <property name="bottomMargin">
+        <number>5</number>
+       </property>
+       <item>
+        <widget class="QScrollArea" name="scroll_area">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="contents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>214</width>
+            <height>266</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>5</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="title_label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font-size: 16pt</string>
+             </property>
+             <property name="text">
+              <string>Custom Widgets Page</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="description_label">
+             <property name="text">
+              <string>Here will be all the custom widgets, they will be added over time on this page.
+I will try to always record a new tutorial when adding a new Widget and updating the project on Patreon before launching on GitHub and GitHub after the public release.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="row_1_layout"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="row_2_layout"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="row_3_layout"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="row_4_layout"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="row_5_layout"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageSer">
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+	font-size: 16pt;
+}</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QScrollArea" name="pageSer_scrl">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="pageSer_cont">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>100</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <layout class="QVBoxLayout" name="pageSer_contLyt">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>5</number>
+           </property>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageP0Main">
+      <layout class="QVBoxLayout" name="pageP0Main_lyt">
+       <item>
+        <widget class="QScrollArea" name="pageP0Main_scrl">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="pageP0Main_cont">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>832</width>
+            <height>640</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <layout class="QVBoxLayout" name="pageP0Main_contLyt">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>5</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="pageP0Main_tLbl">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font-size: 16pt</string>
+             </property>
+             <property name="text">
+              <string>Main Process Selection Page</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pageP0Main_dLbl">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>60</height>
+              </size>
+             </property>
+             <property name="baseSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Here will be all the custom widgets, they will be added over time on this page.
+I will try to always record a new tutorial when adding a new Widget and updating the project on Patreon before launching on GitHub and GitHub after the public release.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP0MainLogo_lyt">
+             <property name="sizeConstraint">
+              <enum>QLayout::SetDefaultConstraint</enum>
+             </property>
+            </layout>
+           </item>
+           <item>
+            <layout class="QGridLayout" name="pageP0Main_gLyt"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageP4Verify">
+      <layout class="QVBoxLayout" name="pageP4Verify_lyt">
+       <item>
+        <widget class="QScrollArea" name="pageP4Verify_scrl">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="pageP4Verify_cont">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>189</width>
+            <height>282</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <layout class="QVBoxLayout" name="pageP4Verify_contLyt">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>5</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="pageP4Verify_tLbl">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font-size: 16pt</string>
+             </property>
+             <property name="text">
+              <string>Verify Process Page</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pageP4Verify_dLbl">
+             <property name="text">
+              <string>Here will be all the custom widgets, they will be added over time on this page.
+I will try to always record a new tutorial when adding a new Widget and updating the project on Patreon before launching on GitHub and GitHub after the public release.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP4Verify_r1Lyt"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP4Verify_r2Lyt"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP4Verify_r3Lyt"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP4Verify_r4Lyt"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP4Verify_r5Lyt"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageP1Prog">
+      <layout class="QVBoxLayout" name="pageP1Prog_lyt">
+       <item>
+        <widget class="QScrollArea" name="pageP1Prog_scrl">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="pageP1Prog_cont">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>263</width>
+            <height>234</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <layout class="QVBoxLayout" name="pageP1Prog_conLyt">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>5</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="pageP1Prog_tLbl">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font-size: 16pt</string>
+             </property>
+             <property name="text">
+              <string>Programming Process Page</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pageP1Prog_dLbl">
+             <property name="text">
+              <string>Here will be all the custom widgets, they will be added over time on this page.
+I will try to always record a new tutorial when adding a new Widget and updating the project on Patreon before launching on GitHub and GitHub after the public release.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP1Prog_r1Lyt"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP1Prog_r2Lyt"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP1Prog_r3Lyt"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP1Prog_r4Lyt"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP1Prog_r5Lyt"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageP2Back">
+      <layout class="QVBoxLayout" name="pageP2Back_Lyt">
+       <item>
+        <widget class="QScrollArea" name="pageP2Back_scrl">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="pageP2Back_cont">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>204</width>
+            <height>266</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <layout class="QVBoxLayout" name="pageP2Back_contLyt">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>5</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="pageP2Back_tLbl">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font-size: 16pt</string>
+             </property>
+             <property name="text">
+              <string>Backup Process Page</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pageP2Back_dLbl">
+             <property name="text">
+              <string>Here will be all the custom widgets, they will be added over time on this page.
+I will try to always record a new tutorial when adding a new Widget and updating the project on Patreon before launching on GitHub and GitHub after the public release.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP2Back_r1Lyt"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP2Back_r2Lyt"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP2Back_r3Lyt"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP2Back_r4Lyt"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP2Back_r5Lyt"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="pageP3Restore">
+      <layout class="QVBoxLayout" name="pageP3Restore_lyt">
+       <item>
+        <widget class="QScrollArea" name="pageP3Restore_scrl">
+         <property name="styleSheet">
+          <string notr="true">background: transparent;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="pageP3Restore_cont">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>206</width>
+            <height>266</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <layout class="QVBoxLayout" name="pageP3Restore_contLyt">
+           <property name="spacing">
+            <number>15</number>
+           </property>
+           <property name="leftMargin">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>5</number>
+           </property>
+           <property name="bottomMargin">
+            <number>5</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="pageP3Restore_tLbl">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font-size: 16pt</string>
+             </property>
+             <property name="text">
+              <string>Restore Process Page</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pageP3Restore_dLbl">
+             <property name="text">
+              <string>Here will be all the custom widgets, they will be added over time on this page.
+I will try to always record a new tutorial when adding a new Widget and updating the project on Patreon before launching on GitHub and GitHub after the public release.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP2Back_r1Lyt_2"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP2Back_r2Lyt_2"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="pageP2Back_r3Lyt_2"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP2Back_r4Lyt_2"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="pageP2Back_r5Lyt_2"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
